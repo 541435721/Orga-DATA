@@ -6,8 +6,15 @@ Pipeline for capturing high-throughout organoid images. The dash frame in (**a**
 
 ## 2. File organization
 ``` bash
-ORGANOID DATA
+Organoid
 ├─Detection
+│   ├─W_C10_0 # well name
+│   │      Proj_1.tif # annotations
+│   │      Proj_1.json # raw high-throughput organoid image
+│   ├─W_C10_1
+│   ├─W_C10_9
+│   ├─......
+│
 └─Tracking 
     ├─W_E4_12 # well name
     │      Proj_1.json # annotations
@@ -65,7 +72,8 @@ The json file contains two kinds of key information: First,the position of each 
 
 
 ## 4. Download
-Coming soon.
+The dataset is saved in a ftp server. All users can access the server (xxx.xxx.xxx.xxx: 21) anonymously.
+Importantly, ensure `passive transmission mode` is set.
 
 ## 5. Acknowledgement
 The data are captured by Accurate International Biotechnology (GZ) Co., Ltd, Nanfang Hospital and Southern Medical University. All annotation are created by team of Fujian Key Laboratory of Sensing and Computing for Smart City, Xiamen University. The data is available for free to researchers for non-commercial use.
