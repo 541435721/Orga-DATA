@@ -1,6 +1,7 @@
 # High-throughput Organoid Tracking Dataset
 
-## 1. Image Capture
+This is a open high-throughput organoid dataset for tracking. All organoids derive from mouse liver which is cultured in 96-well plate. We take one image by BioTek Cytation5 cell imaging multi-mode reader for each well with the interval of 24 hours. 
+
 ![pipline](./images/pipline.jpg)
 Pipeline for capturing high-throughout organoid images. The dash frame in (**a**) are FOVs for scanning. Image patches in (**b**) are montages captured from 16 FOVs. (**c**) shows the stitched images from specific focus plane. 32 z-stack images in (**d**) are projected to generate (**e**).
 
@@ -72,7 +73,7 @@ The json file contains two kinds of key information: First,the position of each 
 
 
 ## 4. Download
-The dataset is saved in a ftp server. All users can access the server (xxx.xxx.xxx.xxx: 21) anonymously.
+The dataset is saved in a ftp server. All users can access the server (39.98.109.195:21) anonymously.
 Importantly, ensure `passive transmission mode` is set.
 
 ## 5. Acknowledgement
