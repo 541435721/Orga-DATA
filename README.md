@@ -73,8 +73,11 @@ The json file contains two kinds of key information: First,the position of each 
 
 
 ## 4. Download
-The dataset is saved in a ftp server. All users can access the server (39.98.109.195:21) anonymously.
-Importantly, ensure `passive transmission mode` is set.
+We provide three ways to access this dataset.
+
+1. All users can visit baidu netdisk to download this dataset (Link:https://pan.baidu.com/s/1a-3kzFPWKM6gwIresUE0BQ Password:vnwk).
+2. All users can visit TeraBox to download this dataset (Link:https://dubox.com/s/18XxGfS8nnz2UXAvhtgVakg Password:e2y8).
+3. All users can access the server (39.98.109.195:21) anonymously. Importantly, ensure `passive transmission mode` is set.
 
 ## 5. Acknowledgement
 The data are captured by Accurate International Biotechnology (GZ) Co., Ltd, Nanfang Hospital and Southern Medical University. All annotation are created by team of Fujian Key Laboratory of Sensing and Computing for Smart City, Xiamen University. The data is available for free to researchers for non-commercial use.
